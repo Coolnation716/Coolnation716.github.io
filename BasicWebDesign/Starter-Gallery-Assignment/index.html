@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Large Cats Gallery</title>
+        <style>
+            .gallery {
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+
+            }
+            .gallery img {
+                width: auto;
+                height: 250px;
+                border-radius:8px;
+            }
+            .image-container{
+                text-align: center;
+            }
+            .image-creit {
+                margin-top: 10px;
+                font-size: 0.9em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Large Cats Gallery</h1>
+        <div class="gallery">
+            <div class="image-container">
+                <img src="images/wildcat.jpg"alt="Cat in the wild">
+                <p class="image-credit">Photo by Peter Trimming via <a href="https://www.geograph.org.uk/photo/1924686">Geograph<a/a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+            </div>
+            <div class="image-container">
+                <img src="images/biegecat.jpg" alt="Beige Cat sitting on a pile of leaves">
+                <p class="image-credit">Image is in the public domain. Source: <a href="https://itoldya420.getarchive.net/amp/media/animal-beige-cat-animals-44a3c7">Archive.net</a>.</p>
+            </div>
+            <div class="image-container">
+                <img src="images/mountainlion.jpg" alt="Mountain Lion standing on a pile of rocks">
+                <p class="image-credit">Image is in the public domain. Source: <a href="https://www.krbd.org/2017/10/11/large-cat-sightings-reported-ketchikan/">krbd.org</a>.</p>
+            </div>
+        </div>
+    </body>
+
+</html>
