@@ -5,4 +5,4 @@
 <p><a href="/BasicWebDesign/Starter-Gallery-Assignment/index.html" target="blank">assignment 3</a></p>
 <p><a href="/BasicWebDesign/Building-Tables-Assignment/info.html" target="blank">assignment 4</a></p>
 <p><a href="/BasicWebDesign/Math-Test-Form-Assignment/Index.html" target="blank">assignment 5</a></p>
-<p><a href="/BasicWebDesign/BasicWebDesign/Color-Scheme-Assignment/index.html" target="blank">assignment 6</a></p>
+<p><a href="BasicWebDesign/Color-Scheme-Assignment/index.html" target="blank">assignment 6</a></p>
