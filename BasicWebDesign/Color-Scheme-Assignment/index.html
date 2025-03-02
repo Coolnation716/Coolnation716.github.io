@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme of Sunset</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sunset-box {
+            width: 100%;
+            height: 50vh;
+            background: linear-gradient(to bottom, #BD0000, #FFA53F, #FFEEBC, #A500B5);
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding-top: 20px;
+            margin: 0;
+        }
+
+        table {
+            width: 60%;
+            margin: 25px auto;
+            border-collapse: collapse;
+            border: 4px solid #444422;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+        }
+
+        th, td {
+            padding: 14px;
+            border: 1px solid #444422;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th {
+            background-color: #222;
+        }
+        
+        .color1 { background-color: #BD0000; } 
+        .color2 { background-color: #FFA53F; }
+        .color3 { background-color: #FFEEBC; color: black; }
+        .color4 { background-color: #A500B5; }
+    </style>
+</head>
+<body>
+    <div class="sunset-box"></div>
+    <h1>The Color Scheme of the Sunset</h1>
+    <table>
+        <tr>
+            <th>Color Name</th>
+            <th>Hex Code</th>
+            <th>RGB Value</th>
+            <th>HSL Value</th>
+        </tr>
+        <tr class="color1">
+            <td>Sunset Red</td>
+            <td>#BD0000</td>
+            <td>rgb(189, 0, 0)</td>
+            <td>hsl(0, 100%, 37%)</td>
+        </tr>
+        <tr class="color2">
+            <td>Sunset Orange</td>
+            <td>#FFA53F</td>
+            <td>rgb(255, 165, 63)</td>
+            <td>hsl(32, 100%, 63%)</td>
+        </tr>
+        <tr class="color3">
+            <td>Soft Yellow</td>
+            <td>#FFEEBC</td>
+            <td>rgb(255, 238, 188)</td>
+            <td>hsl(45, 100%, 87%)</td>
+        </tr>
+        <tr class="color4">
+            <td>Twilight Purple</td>
+            <td>#A500B5</td>
+            <td>rgb(165, 0, 181)</td>
+            <td>hsl(295, 100%, 35%)</td>
+        </tr>  
+    </table>
+</body>
+</html>
