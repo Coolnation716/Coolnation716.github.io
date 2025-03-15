@@ -7,4 +7,4 @@
 <p><a href="BasicWebDesign/Math-Test-Form-Assignment/Index.html" target="blank">assignment 5</a></p>
 <p><a href="BasicWebDesign/Color-Scheme-Assignment/index.html" target="blank">assignment 6</a></p>
 <p><a href="BasicWebDesign/Restaurant-Menu-Assignment/index.html" target="blank">assignment 7</a></p>
-<p><a href="BasicWebDesign/Color-Scheme-Assignment/index.html" target="blank">assignment 8</a></p>
+<p><a href="BasicWebDesign/Stylish-Schedule-Assignment/index.html" target="blank">assignment 8</a></p>
