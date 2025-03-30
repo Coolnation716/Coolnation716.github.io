@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Css Puzzle Project</title>
+        <style>
+            body {
+                display: grid;
+                grid-template-rows: auto auto auto;
+                gap: 20px;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+
+            .header {
+                background: #f4f4f4;
+                padding: 20px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .puzzle-container {
+              display: grid;
+              grid-template-columns: repeat(4, 100px);
+              grid-template-rows: repeat(4,100px);
+              gap: 5px;
+              justify-content: center;
+              margin: 0 auto;
+              border: 2px solid black;
+              padding: 10px;
+              background: white;
+            }
+            
+            .puzzle-container img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .hidden-piece {
+                display: none;
+            }
+
+            .description {
+                background: #e8e8e8;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">Brayden Christianson - Puzzle 1</div>
+        <div class="puzzle-container">
+            <img src="Images/puzzle1_A.jpg" alt="puzzle piece A">
+            <img src="Images/puzzle1_B.jpg" alt="puzzle piece B">
+            <img src="Images/puzzle1_C.jpg" alt="puzzle piece C">
+            <img src="Images/puzzle1_D.jpg" alt="puzzle piece D">
+            <img src="Images/puzzle1_E.jpg" alt="puzzle piece E">
+            <img src="Images/puzzle1_F.jpg" alt="puzzle piece F">
+            <img src="Images/puzzle1_G.jpg" alt="puzzle piece G">
+            <img src="Images/puzzle1_H.jpg" alt="puzzle piece H">
+            <img src="Images/puzzle1_I.jpg" alt="puzzle piece I">
+            <img src="Images/puzzle1_J.jpg" alt="puzzle piece J">
+            <img src="Images/puzzle1_K.jpg" alt="puzzle piece K">
+            <img src="Images/puzzle1_L.jpg" alt="puzzle piece L">
+            <img src="Images/puzzle1_M.jpg" alt="puzzle piece M">
+            <img src="Images/puzzle1_N.jpg" alt="puzzle piece N">
+            <img src="Images/puzzle1_O.jpg" alt="puzzle piece O">
+            <img src="Images/puzzle1_P.jpg" alt="puzzle piece P">
+            <img src="Images/puzzle1_Q.jpg" alt="puzzle piece Q" class="hidden-piece">
+        </div>
+        <div class="description">
+            <p>I used Flexbox to correctly put together the puzzle.</p>
+            <p>The wrong puzzle piece was included but I hid it with the display properties.</p>
+            <p>All images are stored in an folder labeled Images</p>
+            <p>I completed this assignment on March 28, 2025</p>
+        </div>
+    </body>
+</html>
