@@ -10,3 +10,6 @@
 <p><a href="BasicWebDesign/Stylish-Schedule-Assignment/index.html" target="blank">assignment 8</a></p>
 <p><a href="BasicWebDesign/Team-Page-Assignment/index.html" target="blank">assignment 9</a></p>
 <p><a href="BasicWebDesign/Flexbox-CSS-Grid-Puzzle-Assignment/Index.html" target="blank">assignment 10</a></p>
+<p><a href="BasicWebDesign/Scorecards-Assignment/golf.html" target="blank">Golf Scorecard</a></p>
+<p><a href="BasicWebDesign/Scorecards-Assignment/baseball.html" target="blank">Baseball Scorecard</a></p>
+<p><a href="BasicWebDesign/Scorecards-Assignment/bowling.html" target="blank">Bowling Scorecard</a></p>
