@@ -52,14 +52,14 @@
 }
 .theater-stage {
     width: 300px;
-    height: auto;
+    height: 300px;
     position: relative;
+    display: inline-block; 
 }
-
 .theater-stage img {
     width: 100%;
-    height: auto;
-    display: block; /* Ensures the image takes up the full width */
+    height: 100%; 
+    display: block; 
 }
 
 .presenting-text {
@@ -69,6 +69,6 @@
     transform: translate(-50%, -50%);
     color: white; 
     font-size: 36px; 
-    font-weight: bold; 
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
 }
