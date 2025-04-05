@@ -42,15 +42,9 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     filter: brightness(1.2) contrast(1.1);
 }
-
 .seagull {
     width: 300px;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-}
-
-.seagull:hover {
-    transform: scale(1.1) rotate(10deg);
+    height: 300px;
 }
 .theater-stage {
     width: 300px;
