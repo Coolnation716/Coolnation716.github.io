@@ -57,12 +57,18 @@
     position: relative;
 }
 
-.theater-stage::before {
-    content: '';
+.theater-stage img {
+    width: 100%;
+    height: auto;
+}
+
+.presenting-text {
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
