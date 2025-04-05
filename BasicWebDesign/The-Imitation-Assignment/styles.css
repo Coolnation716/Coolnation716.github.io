@@ -48,12 +48,14 @@
 .seagull {
     width: 300px;
     height: 300px;
+    margin-bottom: 20px
 }
 .theater-stage {
     width: 300px;
     height: 300px;
     position: relative;
     display: inline-block; 
+    margin-top: 20px;
 }
 .theater-stage img {
     width: 100%;
