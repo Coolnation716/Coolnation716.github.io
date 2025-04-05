@@ -20,7 +20,7 @@
     height: 100%;
     border-radius: 15px;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     filter: brightness(60%) saturate(300%) hue-rotate(180deg);
 }
 .football-field {
