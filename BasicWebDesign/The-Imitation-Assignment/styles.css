@@ -1,0 +1,52 @@
+.butterfly img {
+    width: 300px;
+    filter: brightness(1.2) saturate(1.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.dinosaur img {
+    width: 300px;
+    background: linear-gradient(to bottom, #a8e063, #56ab2f);
+    padding: 20px;
+    border-radius: 15px;
+}
+.football-field {
+    position: relative;
+}
+.football-field img:first-child {
+    width:100%;
+}
+.tic-tac-toe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+}
+.penguins {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    filter: brightness(1.2) contrast(1.1);
+}
+.seagull {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.seagull:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+.theater-stage {
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+.theater-stage::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255,0.3) 0%,transparent 60%);
+}
