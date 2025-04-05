@@ -50,7 +50,6 @@
 .seagull:hover {
     transform: scale(1.1) rotate(10deg);
 }
-
 .theater-stage {
     width: 300px;
     height: auto;
@@ -60,6 +59,7 @@
 .theater-stage img {
     width: 100%;
     height: auto;
+    display: block; /* Ensures the image takes up the full width */
 }
 
 .presenting-text {
@@ -67,8 +67,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
