@@ -3,18 +3,29 @@
     filter: brightness(1.2) saturate(1.5);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
-.dinosaur img {
+
+.dinosaur .image-wrapper {
     width: 300px;
+    height: auto;
     background: linear-gradient(to bottom, #a8e063, #56ab2f);
     padding: 20px;
     border-radius: 15px;
+    display: inline-block; /* Makes sure the background appears */
 }
+
+.dinosaur img {
+    width: 100%;
+    border-radius: 15px; /* Apply rounded corners to the image as well */
+}
+
 .football-field {
     position: relative;
 }
+
 .football-field img:first-child {
-    width:100%;
+    width: 100%;
 }
+
 .tic-tac-toe {
     position: absolute;
     top: 50%;
@@ -22,25 +33,30 @@
     transform: translate(-50%, -50%);
     opacity: 0.8;
 }
+
 .penguins {
     width: 300px;
     height: auto;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     filter: brightness(1.2) contrast(1.1);
 }
+
 .seagull {
     width: 300px;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
+
 .seagull:hover {
     transform: scale(1.1) rotate(10deg);
 }
+
 .theater-stage {
     width: 300px;
     height: auto;
     position: relative;
 }
+
 .theater-stage::before {
     content: '';
     position: absolute;
@@ -48,5 +64,5 @@
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255,0.3) 0%,transparent 60%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
 }
