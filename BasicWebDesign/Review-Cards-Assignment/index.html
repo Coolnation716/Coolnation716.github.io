@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transitions and Animations Review</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: #eef2f7;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            h1 {
+                margin-top: 40px;
+                font-size: 2.8rem;
+                color: #2d3a4b;
+                animation: fadeSlideIn 2s ease-in-out;
+            }
+            @keyframes fadeSlideIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(-30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .card-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 20px;
+                padding: 40px;
+                max-width: 1000px;
+                width: 90%;
+            }
+            .card {
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                transition: transform 0.3s ease;
+                cursor: pointer;
+            }
+            .card:hover {
+                transform: scale(1.05);
+            }
+            .question {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .answer {
+                opacity: 0;
+                max-height: 0;
+                overflow: hidden;
+                color: #333;
+                transition: opacity 0.4s, max-height 0.4s;
+            }
+            .card:hover .answer {
+                opacity: 1;
+                max-height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Transitions and Animations Review</h1>
+        <div class="card-container">
+            <div class="card">
+              <div class="question">What does the CSS transition property do?</div>
+              <div class="answer">It creates smooth changes between property values over a set time.</div>
+            </div>
+            <div class="card">
+              <div class="question">What two values are needed for a basic transition?</div>
+              <div class="answer">The property to change and the duration of the change.</div>
+            </div>
+            <div class="card">
+              <div class="question">What CSS property changes the width over 3 seconds?</div>
+              <div class="answer">transition: width 3s;</div>
+            </div>
+            <div class="card">
+              <div class="question">How do you trigger a transition in CSS without JavaScript?</div>
+              <div class="answer">Use the :hover pseudo-class to change the property value.</div>
+            </div>
+            <div class="card">
+              <div class="question">What’s the difference between transition and animation?</div>
+              <div class="answer">Transitions go from one state to another; animations can have multiple steps.</div>
+            </div>
+            <div class="card">
+              <div class="question">What keyword is used to define CSS animations?</div>
+              <div class="answer">@keyframes</div>
+            </div>
+            <div class="card">
+              <div class="question">What does "from" and "to" represent in @keyframes?</div>
+              <div class="answer">They represent the start (0%) and end (100%) of an animation.</div>
+            </div>
+            <div class="card">
+              <div class="question">How do you apply an animation to an element?</div>
+              <div class="answer">Use properties like animation-name and animation-duration.</div>
+            </div>
+          </div>
+        </body>
+        </html>
